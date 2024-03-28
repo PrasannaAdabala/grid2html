@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            border: 2px solid;
+           
+            grid-template-columns: repeat(6,auto);
+            gap: 0px;
+        }
+        .md1{
+            display: grid;
+            color: aliceblue;
+            grid-column: 1/7;
+            text-align: center;
+            background-color: rgb(127, 255, 242);
+            padding: 10px;
+            margin: 10px;
+            }
+            .md2{
+                display: grid;
+            color: aliceblue;
+            grid-column: 1/7;
+            text-align: center;
+            background-color:greenyellow;
+            padding: 10px;
+            margin: 10px;
+           }
+           .md3{
+            display: grid;
+            color: aliceblue;
+            grid-row: 3/5;
+            text-align: center;
+            background-color:rgb(47, 255, 82);
+           
+            margin: 10px;
+
+           }
+           .md4{
+            display: grid;
+            color: aliceblue;
+            grid-column:2/7 ;
+            text-align: center;
+            background-color:rgb(47, 189, 255);
+            padding: 30px;
+            margin: 10px;
+
+           }
+           .md5{
+            display: grid;
+            color: aliceblue;
+            grid-column:2/7 ;
+            text-align: center;
+            background-color:rgb(47, 82, 255);
+            padding: 30px;
+            margin: 10px;
+
+           }
+           .md6{
+           display: grid;
+            color: aliceblue;
+            grid-column: 1/7;
+            text-align: center;
+            background-color: rgb(127, 255, 242);
+            padding: 10px;
+            margin: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="md1">header</div>
+        <div class="md2">Navigation</div>
+        <div class="md3">Aside</div>
+        <div class="md4">content</div>
+        <div class="md5">section</div>
+        <div class="md6">Footer</div>
+    </div>
+</body>
+</html>
